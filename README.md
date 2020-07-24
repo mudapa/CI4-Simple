@@ -12,13 +12,13 @@ php spark serve
 
 
 ## Admin
-email = admin@admin.com
+email = admin@admin.com <br>
 password = 1234
 
 ## Dosen
-email = dosen@dosen.com
+email = dosen@dosen.com <br>
 password = 1234
 
 ## Mahasiswa
-email = mhs@mhs.com
+email = mhs@mhs.com <br>
 password = 1234
