@@ -22,3 +22,6 @@ password = 1234
 ## Mahasiswa
 email = mhs@mhs.com <br>
 password = 1234
+
+## View
+<img src="https://github.com/mudapa/Simple-login-ci4/blob/master/public/img/Simple.png">
