@@ -24,7 +24,9 @@ email = mhs@mhs.com <br>
 password = 1234
 
 # View
-## Login
+<h1>Login</h1>
+
 <img src="https://github.com/mudapa/Simple-login-ci4/blob/master/public/img/Simple.png">
-## Admin
+<h1>Admin</h1>
+
 <img src="https://github.com/mudapa/Simple-login-ci4/blob/master/public/img/admin.png">
