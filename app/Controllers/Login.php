@@ -19,7 +19,7 @@ class Login extends BaseController
         session()->set('role', $cek_login['role']);
         if (session()->get('role') == 1) {
           // login admin
-          echo 'admin';
+          return redirect()->to('/admin');
         } elseif (session()->get('role') == 2) {
           // login dosen
           echo 'dosen';

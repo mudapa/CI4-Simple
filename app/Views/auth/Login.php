@@ -9,9 +9,9 @@
   <div class="row py-2">
     <div class="col align-self-end shadow rd-full">
       <div class="card text-center mb-3 shadow rd-full">
-        <div class="card-body">
-          <img src="img/yoda.png" class="d-block w-100 yoda rd" alt="yoda">
-        </div>
+
+        <img src="img/yoda.png" class="card-img-top yoda rd" alt="yoda">
+
         <div class="card-body">
           <p class="card-text"><b class="bient shadow-sm">Skill yang istimewa cuma bisa didapat dengan proses yang istimewa juga.</b></p>
         </div>

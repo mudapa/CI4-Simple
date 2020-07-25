@@ -18,6 +18,25 @@ body {
   height: 100%;
 }
 
+.navlog {
+  max-width: 100px;
+  max-height: 100px;
+}
+
+.navbg {
+  background: #141e30; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #243b55,
+    #141e30
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #243b55,
+    #141e30
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
 .test {
   width: 50%;
 }
@@ -56,6 +75,11 @@ body {
     #302b63,
     #0f0c29
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.casi {
+  max-width: 500px;
+  height: 250px;
 }
 
 /* radius top */

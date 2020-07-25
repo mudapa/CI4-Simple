@@ -16,4 +16,10 @@ class UserModel extends Model
       ->get()
       ->getRowArray();
   }
+
+  public function role()
+  {
+    return $this->db->table('role')
+      ->get()->getResultArray();
+  }
 }
