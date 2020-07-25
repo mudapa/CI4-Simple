@@ -7,40 +7,40 @@
     </div>
   </div>
   <div class="row py-2">
-    <div class="col align-self-end shadow ">
-      <div class="card text-center mb-3 shadow">
+    <div class="col align-self-end shadow rd-full">
+      <div class="card text-center mb-3 shadow rd-full">
         <div class="card-body">
-          <img src="img/yoda.png" class="d-block w-100 yoda " alt="yoda">
+          <img src="img/yoda.png" class="d-block w-100 yoda rd" alt="yoda">
         </div>
         <div class="card-body">
-          <p class="card-text"><b class="bient">Skill yang istimewa cuma bisa didapat dengan proses yang istimewa juga.</b></p>
+          <p class="card-text"><b class="bient shadow-sm">Skill yang istimewa cuma bisa didapat dengan proses yang istimewa juga.</b></p>
         </div>
 
       </div>
     </div>
     <div class="col align-self-center">
-      <div class="card mb-5 shadow">
-        <div class="card-header text-center">
-          <b class="bient-b">Login</b>
+      <div class="card mb-5 shadow rd-full">
+        <div class="shadow text-center">
+          <h3 class="bient-b">Login</h3>
         </div>
         <div class="card-body mt-3">
-          <h5 class="card-title text-primary text-center">Selamat datang <span class="txt-rotate text-success" data-period="2000" data-rotate='[ "cuy.", "bro.", "bray.", "mamang." ]'></span></h5>
+          <h4 class="card-title text-primary text-center">Selamat datang <span class="txt-rotate bient" data-period="2000" data-rotate='[ "cuy.", "bro.", "bray.", "mamang." ]'></span></h4>
           <form action="login/isloggin" class="needs-validation" novalidate>
             <div class="form-row">
               <div class="col-md-12 mb-3">
                 <label for="validationTooltip03">Email</label>
-                <input type="text" class="form-control" id="validationTooltip03" name="email" required>
+                <ion-icon name="at"></ion-icon><input type="text" class="form-control" id="validationTooltip01" name="email" required placeholder="Email@example.com">
                 <div class="invalid-tooltip">
-                  Please provide a valid city.
+                  Email harus diisi boss.
                 </div>
               </div>
             </div>
             <div class="form-row">
               <div class="col-md-12 mb-3">
                 <label for="validationTooltip03">Password</label>
-                <input type="password" class="form-control" id="validationTooltip03" name="password" required>
+                <ion-icon name="lock-closed-outline"></ion-icon> <input type="password" class="form-control" id="validationTooltip02" name="password" required placeholder="Password">
                 <div class="invalid-tooltip">
-                  Please provide a valid city.
+                  Password harus diisi boss.
                 </div>
               </div>
             </div>
