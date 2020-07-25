@@ -1,6 +1,6 @@
 ## INSTALL
 
-git clone https://github.com/mudapa/Simple-login-ci4.git
+git clone https://github.com/mudapa/CI4-Simple.git
 
 create database, name = login-ci4
 
