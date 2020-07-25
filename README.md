@@ -26,3 +26,5 @@ password = 1234
 # View
 ## Login
 <img src="https://github.com/mudapa/Simple-login-ci4/blob/master/public/img/Simple.png">
+## Admin
+<img src="https://github.com/mudapa/Simple-login-ci4/blob/master/public/img/admin.png">
