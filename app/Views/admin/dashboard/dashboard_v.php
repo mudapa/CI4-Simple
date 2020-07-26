@@ -7,16 +7,22 @@
     </div>
   </div>
   <div class="row py-3">
-    <?php foreach ($role as $x => $value) { ?>
-      <div class="col px-5">
-        <div class="card" style="width: 18rem;">
-          <img src="img/yoda.png" class="card-img-top" alt="...">
-          <div class="card-body text-center navbg">
-            <b class="card-text bient"><?= $value['nama_role'] ?></b>
-          </div>
+    <div class="col px-5">
+      <div class="card-body">
+        <div class="row">
+          <?php foreach ($role as $x => $value) { ?>
+            <div class="col">
+              <div class="card" style="width: 18rem;">
+                <img src="img/yoda.png" class="card-img-top" alt="...">
+                <div class="card-body text-center navbg">
+                  <b class="card-text bient"><?= $value['nama_role'] ?></b>
+                </div>
+              </div>
+            </div>
+          <?php } ?>
         </div>
       </div>
-    <?php } ?>
+    </div>
   </div>
   <div class="row px-2">
     <div class="col">
