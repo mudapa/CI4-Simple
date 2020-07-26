@@ -30,3 +30,9 @@ password = 1234
 <h1>Admin</h1>
 
 <img src="https://github.com/mudapa/Simple-login-ci4/blob/master/public/img/admin.png">
+<h1>Dosen</h1>
+
+<img src="https://github.com/mudapa/Simple-login-ci4/blob/master/public/img/dosen.png">
+<h1>Mahasiswa</h1>
+
+<img src="https://github.com/mudapa/Simple-login-ci4/blob/master/public/img/mahasiswa.png">
