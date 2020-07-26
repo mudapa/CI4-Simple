@@ -16,4 +16,12 @@ class View extends BaseController
 		];
 		return view('admin/dashboard/dashboard_v', $data);
 	}
+	public function dosen()
+	{
+		return view('dosen/dashboard/dashboard_v');
+	}
+	public function mahasiswa()
+	{
+		return view('mahasiswa/dashboard/dashboard_v');
+	}
 }

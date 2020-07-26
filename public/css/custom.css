@@ -37,6 +37,16 @@ body {
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
+.cardbg {
+  background-color: #a82b71;
+  background-image: linear-gradient(
+    225deg,
+    #a82b71 0%,
+    #4d3675 50%,
+    #083e60 100%
+  );
+}
+
 .test {
   width: 50%;
 }

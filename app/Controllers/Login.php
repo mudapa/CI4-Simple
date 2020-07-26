@@ -22,10 +22,10 @@ class Login extends BaseController
           return redirect()->to('/admin');
         } elseif (session()->get('role') == 2) {
           // login dosen
-          echo 'dosen';
+          return redirect()->to('/dosen');
         } elseif (session()->get('role') == 3) {
           // Login mahasiswa
-          echo 'mahasiswa';
+          return redirect()->to('/mahasiswa');
         }
       } else {
         return redirect()->to('/');

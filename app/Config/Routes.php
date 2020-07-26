@@ -38,6 +38,8 @@ $routes->get('/logout', 'Login::logout');
 
 $routes->group('/', ['filter' => 'auth'], function ($routes) {
 	$routes->get('admin', 'View::admin');
+	$routes->get('dosen', 'View::dosen');
+	$routes->get('mahasiswa', 'View::mahasiswa');
 });
 /**
  * --------------------------------------------------------------------
